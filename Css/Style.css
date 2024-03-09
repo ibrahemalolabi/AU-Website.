@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-top: 75px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+/* ===== header ===== */
+header{
+    height: 95vh;
+}
+/* ===== video ===== */
+ video{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+/* ===== nav-brand ===== */
+nav{
+    padding:100px 0; 
+}
+#logo{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* ===== navbar ===== */
+.nav-item .nav-link{
+    color: black;
+    font-size: 48px;
+    padding: 0 80px;
+}
+.nav-item .nav-link:hover{
+    color: red;
+}
+
+
+
+/* ==========      ========== */
+
+
+
+/* ===== projects ===== */
+#projects  h1{
+    font-size: 85px;
+    padding-top: 75px;
+    color: black;
+    text-align: center;
+}
+#projects{
+    width: 100%;
+    height: auto;    
+    background-color: white;
+}
+/* ===== images ===== */
+#projects .row div{
+    padding: 0;
+}
+#projects .row div img{
+    padding: 15px;
+    width: 99%;
+    height: 99%;
+    opacity: 1;
+}
+#projects .row div img:hover{
+    opacity: 0.7;
+}
+#projects .row{
+    padding: 100px 0;
+}
+
+
+
+/* ==========      ========== */
+
+
+
+/* ===== about-image ===== `*/
+
+#about .img-about{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../Imeg/about.webp);
+    background-attachment: fixed;
+    background-size:cover ;
+}
+/* ===== about-title ===== */
+#about h1{
+    font-size: 85px;
+    padding-top: 75px;
+    color: black;
+    text-align: center;
+}
+#about #title{
+    text-align: center;
+    background-color: white;
+    height: 40vh;
+}
+#title p{
+    width: 50%;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding-top:25px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Parisienne', cursive;
+}
+
+
+/* ==========      ========== */
+
+
+
+/* ===== contact ===== */
+#title-contact h1{
+    font-size: 85px;
+    padding-top: 75px;
+    color: black;
+    text-align: center;
+}
+#img-contact{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../Imeg/contact.png);
+    background-attachment: fixed;
+    background-size:contain ;
+}
+#title-contact{
+    background-color: white;
+}
+
+
+
+form {
+    padding-bottom: 75px;
+    padding-top:  25px;
+    width: 40%;
+    height: auto;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+#validationTextarea{
+    height: 100px;
+}
+
+
+
+/* ==========      ========== */
+
+
+
+/* ===== footer ===== */
+footer{
+    margin: 0;
+    padding:0;
+    background-color: white;
+    font-size:15px;
+    font-weight: 400;
+    font-family: 'Domine', serif;
+    
+    text-align: center;
+    margin-top: 20px;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: red;
+}
+
+
+
+
+
